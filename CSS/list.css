@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.list-content {
+	width:94.3%; 
+	border:#999 solid 1px; 
+	background-color:#fafafa;
+}
+.list-content h3 {
+	border-bottom:#006 solid 3px; 
+	line-height:36px;  
+	padding:0 10px; 
+	font-size:14px; 
+	color:#333;
+	font-weight:normal;
+}
+.list-content > form {
+	padding:16px 20px;
+}
+.list-content > form > .condition {
+	float:left;
+	width:30%;
+	margin:5px 0;
+	font-size:14px;
+	font-family:"方正兰亭黑简体";
+}
+.list-content input {
+	width:160px;
+	height:28px;
+	background-color:#fafafa;
+	border:#999 solid 1px;
+}
+.list-content .condition-03 select {
+	width:160px;
+	height:32px;
+	background-color:#fafafa;
+}
+.list-content .condition-06{
+	width:50px !important;
+	height:26px;
+	border-radius:6px;
+	background-image:linear-gradient(#1373bc,#a2d7fe);
+	float:right !important;
+	margin:0 30px !important;
+	font-size:16px;
+	line-height:26px;
+	text-align:center;
+	color:#002138;
+}
+.list-content > table {
+	width:100%;
+	font-family:"方正兰亭黑简体";
+	text-align:center;
+	display:block;
+	line-height:30px;
+	border-spacing:0px;
+	border-color:#ccc;
+}
+.list-content > table th:nth-child(1),.list-content > table th:nth-child(3),.list-content > table th:nth-child(5),.list-content > table th:nth-child(6){
+	width:1%;
+}	
+.list-content > table th:nth-child(2),.list-content > table th:nth-child(4),.list-content > table th:nth-child(7),.list-content > table th:nth-child(8) {
+	width:1%;
+}	
+.list-content > table tr:nth-child(1){
+	background-image:linear-gradient(#76bff2,#c9e5f9);
+}
+.list-content > table tr:nth-child(3),.list-content > table tr:nth-child(5),.list-content > table tr:nth-child(7),.list-content > table tr:nth-child(9),.list-content > table tr:nth-child(11){
+	background-color:#f1f1f1;
+}
+.list-content > .pagebox {
+	line-height:18px;
+	font-size:14px;
+	color:#333333;
+	float:right;
+	margin-right:10px;
+}
+.list-content > .pagebox > .page {
+	float:left;
+	margin:15px 5px;
+}
+.list-content > .pagebox > .go {
+	width:18px;
+	height:18px;
+	color:#f58417;
+	background-image:url(../images/photo10.png);
+	background-repeat:no-repeat;
+}
+.list-content > .pagebox input{
+	width:18px;
+	height:18px;
+	text-align:center;
+}
+.list-content > .pagebox mark{
+	display:inline-block;
+	color:#f58417;
+	background-color:inherit;
+	letter-spacing:1px;
+}
+.list-content > .pagebox span:nth-child(1) a{
+	color:#f58417;
+}
+.list-content > .pagebox span{
+	background-color:#CCC;
+	margin:0 2px;
+	padding:0 4px;
+}
+.list-content > .pagebox a{
+	color:#333333;
+}
+.list-content > .pagebox a:hover{
+	color:#f58417;
+}

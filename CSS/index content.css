@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+#body {
+	background-color:#eef6fc;
+}
+#content {
+	width:94.3%;
+}
+.index {
+	width:99%;
+	margin:0px auto;
+}
+.index .indexbox {
+	width:25%;
+	padding:40px 10px;
+	float:left;
+}
+.index .indexbox .figure {
+	width:100%;
+	height:120px;
+	margin:0px;
+	padding:0px;
+}
+.index .indexbox figure img {
+	float:left;
+	margin:30px 10px;
+}
+.index .indexbox figure #figcaption {
+	width:100px;
+	float:right;
+	margin:10px;
+}
+.index .indexbox figure h2 {
+	width:100px;
+	height:36px;
+	background-color:#eef6fc;
+	border-radius:4px;
+	margin:10px 0px;
+	line-height:36px;
+	text-align:center;
+	font-size:24px;
+	font-family:"创艺简楷体";
+}
+.index .indexbox figure h3 {
+	line-height:40px;
+	font-size:33px;
+	color:#eef6fc;
+	text-align:right;
+	padding:0px 10px;
+}
+.index .indexbox .downad {
+	position:relative;
+	padding:10px 0px;
+	width:100%;
+	height:340px;
+}
+.index .indexbox .downad a {
+	position:absolute;
+	bottom:5px;
+	right:10px;
+}
+.index .indexbox .downad figure {
+	width:100%;
+	margin:10px 0px 0px;
+}
+.index .indexbox .downad .img {
+	float:left;
+	width:60px;
+	height:60px;
+	margin:0px 10px 0px 15px;
+	border:1px solid #999;
+	background-color:#fff;
+}
+.index .indexbox .downad img {
+	height:50px;
+	margin:4px;
+}
+.index .indexbox .downad figcaption {
+	width:66%;
+	margin:5px 0px;
+	float:left;
+}
+.index .indexbox .downad h4 {
+	font-size:14px;
+	font-family:"创艺简楷体";
+	color:#6f6f6f;
+	line-height:20px;
+}
+.index .indexbox .downad p {
+	font-size:12px;
+	float:right;
+	font-family:"创艺简楷体";
+	line-height:14px;
+	color:#909090;
+}
+.index .indexbox .figure01 {
+	background-color:#8c59fc;
+}
+.index .indexbox .figure01 h2,.index .indexbox .downad01 a {
+	color:#8c59fc;
+}
+.index .indexbox .downad01 {
+	border:1px solid #8c59fc;
+}
+.index .indexbox .figure02 {
+	background-color:#fb992c;
+}
+.index .indexbox .figure02 h2,.index .indexbox .downad02 a {
+	color:#fb992c;
+}
+.index .indexbox .downad02 {
+	border:1px solid #fb992c;
+}
+.index .indexbox .figure03 {
+	background-color:#33cc72;
+}
+.index .indexbox .figure03 h2,.index .indexbox .downad03 a {
+	color:#33cc72;
+}
+.index .indexbox .downad03 {
+	border:1px solid #33cc72;
+}
+.index .indexbox .figure04 {
+	background-color:#3ac9d9;
+}
+.index .indexbox .figure04 h2,.index .indexbox .downad04 a {
+	color:#3ac9d9;
+}
+.index .indexbox .downad04 {
+	border:1px solid #3ac9d9;
+}
+
+
+
+
+
+

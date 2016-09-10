@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-size:12px;
+	box-sizing:border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,img,input,select,option,table,tr,td,th,iframe,figcaption,figure { 
+	margin:0px; 
+	padding:0px;
+	outline:none;
+}
+article,aside,dialog,footer,header,legend,nav,section,figcaption,figure,hgroup,time,mark {
+	display:block;
+}
+body{
+	font-family:Arial, "方正兰亭黑简体", "微软雅黑";
+	min-width:1200px;
+}
+img {
+	display:block; 
+	border:none;
+}
+a { 
+	text-decoration:none;
+}
+.overflowH {
+	overflow:hidden;
+}
+header,nav,section,footer {
+	width:100%; 
+}
+.footbox,.headbox{
+	width:100%;
+}
+header {
+	background-color:#79bff0;
+}
+header .logo {
+	float:left; 
+	margin:18px 20px;
+}
+header img { 
+	float:left; 
+	margin:0 10px;
+}
+header h1 {
+	line-height:42px; 
+	font-size:32px; 
+	float:left;
+	margin:0 10px;
+	color:#0f5488;
+	font-family:"楷体";
+	font-weight:bold;
+}
+header p {
+	float:right; 
+	line-height:40px; 
+	font-size:14px;
+	margin:0 10px;
+	color:#0873ba;
+	font-family:"楷体";
+}
+nav {
+	background-image:linear-gradient(#1c7cc6,#033051); 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #1c7cc6, endColorstr = #033051);
+	color:#FFF; 
+}
+nav img {
+	display:inline-block; 
+	margin:-3px 5px;
+}
+nav a {
+	color:#c1e2f8; 
+	line-height:30px;
+}
+nav li {
+	list-style:none; 
+	display:inline-block; 
+	margin:0 10px 0 0;
+}
+nav ul {
+	list-style:none;
+	float:right;
+}
+nav time {
+	line-height:30px;
+	float:left; 
+	margin:0 10px;
+	color:#c1e2f8;
+}
+#section {
+	position:relative;
+}
+#section aside {
+	width:16.8%;
+	position:relative;
+}
+section .asidebox {
+	width:15%;
+	float:left;
+	border:#aaa solid 1px;
+	position:relative; 
+	padding:0 0 10px 0;
+	background-color:#fafafa;
+}
+#section h2 {
+	font-size:16px; 
+	text-align:center;
+	line-height:36px; 
+	border-bottom:#006 dashed 1px;
+	color:#505050;
+	font-family:"微软雅黑";
+}
+#section span {
+	width:19px; 
+	height:19px; 
+	background-color:#0f5488;
+	-webkit-border-radius:17px;
+	-moz-border-radius:17px;
+	-ms-border-radius:17px;
+	border-radius:17px;
+	behavior: url(border-radius.htc);
+}
+#section span img{
+	margin:3px;
+}
+#section .ctrlleft{
+	position:absolute;
+	top:8px;
+	right:4px;
+}
+#section .ctrlright{
+	position:absolute;
+	top:8px;
+	left:4px;
+}
+#section dl {
+	position:relative; 
+	display:block;
+}
+#section dl img {
+	position:absolute; 
+	top:10px; 
+	left:10px;
+}
+#section dt {
+	font-size:14px; 
+	color:#0f5488; 
+	font-weight:bold; 
+	line-height:30px; 
+	background-image:linear-gradient(#76bff2,#c9e5f9); 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #76bff2, endColorstr = #c9e5f9);
+	margin:10px 0; 
+	padding-left:40px;
+	font-family:"微软雅黑";
+}
+#section dd {
+	font-size:12px;  
+	text-align:center;
+	padding:6px 0px;
+}
+#section img {
+	margin:0 10px; 
+	display:inline-block;
+}
+#section img:hover,#section span:hover,#section a:hover,nav a:hover {
+	cursor:pointer;
+	color:#f00;
+}
+#section dt:hover,#section dd:hover{
+	cursor:pointer;
+}
+#section a {
+	color:#666;
+}
+section .contentbox {
+	width:84%;
+	float:right;
+	border:#aaa solid 1px;
+	background-color:#fafafa;
+}
+footer {
+	text-align:center;
+	padding:20px 0;
+}
+footer p{
+	color:#666;
+	line-height:24px;
+}
+footer figure{
+	width:432px;
+	margin:20px auto;
+}
+footer img{
+	display:inline-block;
+	margin:0 10px;
+}
+.current{ background-color:#c2e4fa;}

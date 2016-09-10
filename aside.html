@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<meta charset="utf-8">
+<title>菜单栏模块</title>
+</head>
+
+<body>
+<section id="section">
+	<aside>
+    	<h2>网站菜单管理</h2>
+        <span class="ctrlleft"><img src="images/left.png"></span>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">系统管理</dt>
+            <dd><a href="">用户管理</a></dd>
+            <dd><a href="">角色管理</a></dd>
+            <dd><a href="">权限管理</a></dd>
+        </dl>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">个人中心</dt>
+            <dd><a href="">信息修改</a></dd>
+            <dd><a href="">密码修改</a></dd>
+        </dl>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">维修管理</dt>
+            <dd><a href="list content.html" target="in">维修工单查询</a></dd>
+            <dd><a href="">排队号列表</a></dd>
+        </dl>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">自维修基础数据管理</dt>
+            <dd><a href="">产品维护</a></dd>
+            <dd><a href="">产品设备BOM维护</a></dd>
+            <dd><a href="">备件库存维护</a></dd>
+            <dd><a href="">计时收费标准维护</a></dd>
+        </dl>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">自维修订单管理</dt>
+            <dd><a href="">订单的创建</a></dd>
+            <dd><a href="">自维修订单查询</a></dd>
+            <dd><a href="">我的自维修订单</a></dd>
+        </dl>
+        <dl>
+            <dt><img src="images/photo03.png"><img src="images/photo02.png">自维修产品管理</dt>
+            <dd><a href="">自维修产品申请</a></dd>
+            <dd><a href="">自维修产品交付</a></dd>
+            <dd><a href="">自维修产品归还</a></dd>
+        </dl>
+    </aside>
+    <span class="ctrlright"><img src="images/right.png"></span>
+</section>
+
+<script>
+$("#section span:last").hide();
+$("#section span:first").click(
+	function(){
+		$("aside").hide();
+		$("#section span:last").show();
+	}
+)
+$("#section span:last").click(
+	function(){
+		$("aside").show();
+		$("#section span:last").hide();
+	}
+)
+
+/*var x;
+x = $(this).index();
+document.title = x;	
+*/
+$("dl img:even").hide();
+$("aside dl dd").hide();
+$("aside dl:last dt").siblings().show();
+$("aside dl img:eq(10)").show();
+$("aside dl img:eq(11)").hide();
+$("aside dl:eq(0) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(0)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(1)").hide();
+		$("aside dl:eq(1) dt").siblings().hide();
+		$("aside dl:eq(2) dt").siblings().hide();
+		$("aside dl:eq(3) dt").siblings().hide();
+		$("aside dl:eq(4) dt").siblings().hide();
+		$("aside dl:eq(5) dt").siblings().hide();
+	}
+)
+$("aside dl:eq(1) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(2)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(3)").hide();
+		$("aside dl:eq(0) dt").siblings().hide();
+		$("aside dl:eq(2) dt").siblings().hide();
+		$("aside dl:eq(3) dt").siblings().hide();
+		$("aside dl:eq(4) dt").siblings().hide();
+		$("aside dl:eq(5) dt").siblings().hide();
+	}
+)
+$("aside dl:eq(2) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(4)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(5)").hide();
+		$("aside dl:eq(1) dt").siblings().hide();
+		$("aside dl:eq(0) dt").siblings().hide();
+		$("aside dl:eq(3) dt").siblings().hide();
+		$("aside dl:eq(4) dt").siblings().hide();
+		$("aside dl:eq(5) dt").siblings().hide();
+	}
+)
+$("aside dl:eq(3) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(6)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(7)").hide();
+		$("aside dl:eq(1) dt").siblings().hide();
+		$("aside dl:eq(2) dt").siblings().hide();
+		$("aside dl:eq(0) dt").siblings().hide();
+		$("aside dl:eq(4) dt").siblings().hide();
+		$("aside dl:eq(5) dt").siblings().hide();
+	}
+)
+$("aside dl:eq(4) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(8)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(9)").hide();
+		$("aside dl:eq(1) dt").siblings().hide();
+		$("aside dl:eq(2) dt").siblings().hide();
+		$("aside dl:eq(3) dt").siblings().hide();
+		$("aside dl:eq(0) dt").siblings().hide();
+		$("aside dl:eq(5) dt").siblings().hide();
+	}
+)
+$("aside dl:eq(5) dt").click(
+	function(){
+		$(this).siblings().show();
+		$("aside dl img:even").hide();		
+		$("aside dl img:eq(10)").show();
+		$("aside dl img:odd").show();
+		$("aside dl img:eq(11)").hide();
+		$("aside dl:eq(1) dt").siblings().hide();
+		$("aside dl:eq(2) dt").siblings().hide();
+		$("aside dl:eq(3) dt").siblings().hide();
+		$("aside dl:eq(4) dt").siblings().hide();
+		$("aside dl:eq(0) dt").siblings().hide();
+	}
+)
+
+
+
+
+$("aside dd").mouseenter(
+	function(){
+		$(this).addClass("current");
+	}
+)
+$("aside dd").mouseleave(
+	function(){
+		$(this).removeClass("current");
+	}
+)
+</script>
+
+</body>
+</html>

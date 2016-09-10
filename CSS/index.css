@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+	width:94.3%; 
+}
+.content p {
+	border-bottom:#006 solid 3px; 
+	line-height:36px;  
+	padding:0 10px; 
+	font-size:14px; 
+	color:#333;
+}
+.content .bgimg {
+	font-size:54px; 
+	color:#be0000;
+	font-family:"方正魏碑简体"; 
+	line-height:510px;
+	text-align:center;
+	background-image:url(../images/photo05.png); 
+	background-size:100%;
+	background-repeat:no-repeat;
+	-webkit-text-shadow:3px 3px 3px #000;
+	-moz-text-shadow:3px 3px 3px #000;
+	-ms- text-shadow:3px 3px 3px #000;
+	text-shadow:3px 3px 3px #000;
+}
