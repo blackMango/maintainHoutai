@@ -21,7 +21,7 @@
 	margin:0px;
 	padding:0px;
 }
-.index .indexbox figure img {
+.index .indexbox .figure img {
 	width: 40%;
 	float:left;
 	margin:30px 2%;
@@ -69,10 +69,11 @@
 	width:22%;
 	margin:0px 2% 0px 2%;
 	border:1px solid #999;
+	background-color: #fff;
 }
-.index .indexbox .downad img {
-	width:50%;
-	margin:5px 25%;
+.index .indexbox .downad .img img {
+	width:80%;
+	margin:5px 10%;
 }
 .index .indexbox .downad figcaption {
 	width:72%;
