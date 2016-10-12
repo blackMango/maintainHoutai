@@ -22,16 +22,17 @@
 	padding:0px;
 }
 .index .indexbox figure img {
+	width: 40%;
 	float:left;
-	margin:30px 10px;
+	margin:30px 2%;
 }
 .index .indexbox figure #figcaption {
-	width:100px;
+	width:50%;
 	float:right;
-	margin:10px;
+	margin:10px 3%;
 }
 .index .indexbox figure h2 {
-	width:100px;
+	width:100%;
 	height:36px;
 	background-color:#eef6fc;
 	border-radius:4px;
@@ -65,18 +66,16 @@
 }
 .index .indexbox .downad .img {
 	float:left;
-	width:60px;
-	height:60px;
-	margin:0px 10px 0px 15px;
+	width:22%;
+	margin:0px 2% 0px 2%;
 	border:1px solid #999;
-	background-color:#fff;
 }
 .index .indexbox .downad img {
-	height:50px;
-	margin:4px;
+	width:50%;
+	margin:5px 25%;
 }
 .index .indexbox .downad figcaption {
-	width:66%;
+	width:72%;
 	margin:5px 0px;
 	float:left;
 }
@@ -85,6 +84,11 @@
 	font-family:"创艺简楷体";
 	color:#6f6f6f;
 	line-height:20px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .index .indexbox .downad p {
 	font-size:12px;
