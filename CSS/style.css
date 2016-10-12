@@ -14,7 +14,6 @@ article,aside,dialog,footer,header,legend,nav,section,figcaption,figure,hgroup,t
 }
 body{
 	font-family:Arial, "方正兰亭黑简体", "微软雅黑";
-	min-width:1200px;
 }
 img {
 	display:block; 
@@ -92,7 +91,7 @@ nav time {
 	position:relative;
 }
 #section aside {
-	width:16.8%;
+	width:100%;
 	position:relative;
 }
 section .asidebox {
